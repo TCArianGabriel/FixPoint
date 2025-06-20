@@ -101,7 +101,41 @@ abstract class AppDatabase : RoomDatabase() {
                         codigoEquipo = "Equipo3"
                     )
 
-                    
+                    val incidente4 = Incidente(
+                        nombreUsuario = "Usuario4",
+                        areaDeUsuario = "Area4",
+                        descripcion = "Descripción de la incidencia 4",
+                        estado = "Sin atender",
+                        codigoTecnico = null,
+                        codigoEquipo = "Equipo4"
+                    )
+
+                    val incidente5 = Incidente(
+                        nombreUsuario = "Usuario5",
+                        areaDeUsuario = "Area5",
+                        descripcion = "Descripción de la incidencia 5",
+                        estado = "Sin atender",
+                        codigoTecnico = null,
+                        codigoEquipo = "Equipo5"
+                    )
+
+                    val incidente6 = Incidente(
+                        nombreUsuario = "Usuario6",
+                        areaDeUsuario = "Area6",
+                        descripcion = "Descripción de la incidencia 6",
+                        estado = "Sin atender",
+                        codigoTecnico = null,
+                        codigoEquipo = "Equipo6"
+                    )
+
+                    val incidente7 = Incidente(
+                        nombreUsuario = "Usuario7",
+                        areaDeUsuario = "Area7",
+                        descripcion = "Descripción de la incidencia 7",
+                        estado = "Sin atender",
+                        codigoTecnico = null,
+                        codigoEquipo = "Equipo7"
+                    )
 
                     incidenteDao.insertIncidente(incidente1)
                     incidenteDao.insertIncidente(incidente2)
