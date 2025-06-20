@@ -139,6 +139,11 @@ abstract class AppDatabase : RoomDatabase() {
 
                     incidenteDao.insertIncidente(incidente1)
                     incidenteDao.insertIncidente(incidente2)
+                    incidenteDao.insertIncidente(incidente3)
+                    incidenteDao.insertIncidente(incidente4)
+                    incidenteDao.insertIncidente(incidente5)
+                    incidenteDao.insertIncidente(incidente6)
+                    incidenteDao.insertIncidente(incidente7)
 
                 }
             }
