@@ -6,3 +6,35 @@ data class Incident(
     val userArea: String, // "Area del usuario"
     val description: String // "Descripcion de la incidencia"
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
