@@ -13,30 +13,3 @@ data class Usuario(
     @ColumnInfo(name = "Contrasena") val contrasena: String, // ¡Considera encriptar esto en una app real!
     @ColumnInfo(name = "Tipo") val tipo: String // "jefe", "tecnico", "comun"
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
